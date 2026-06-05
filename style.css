@@ -43,11 +43,12 @@
 }
 
 .home-page a {
+   
     text-align: center;
     margin: 15px 0;
     font-size: 18px;
     color: #ff69b4;
-    text-decoration: none;
+    text-decoration: underline;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
 }    
@@ -122,4 +123,28 @@
 .about-page li {
     margin-bottom: 15px; 
     line-height: 1.5;
+}
+.about-page a {
+    display: inline-block;  
+    padding: 10px 20px;    
+    font-size: 16px;
+    background-color: #ff69b4;
+    border: 2px solid white; 
+    border-radius: 40px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease; 
+    display: left;
+    align-self: flex-end;
+    margin-right: 70px;
+    
+
+}
+
+.about-page a:hover {
+    background-color: white;
+    color: #ff69b4;
+    border: 2px solid #ff69b4;
 }
